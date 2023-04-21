@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #100a4a;
+    background-color: lightpink;
+}
+
+
+body {
+    background: #c4c4c4;
+    font-size: 14px;
+}
+
+.logo {
+    font-size: 90px;
+    width: 90%;
+    color: #100a4a;
+}
+
+.icon-container {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile_icon {
+    height: 18vh;
+}
+
+.row_name {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.resume_wrapper {
+    display: flex;
+    height: 100vh;
+    margin: 50px auto;
+
+}
+
+.head {
+    font-weight: 600;
+}
+
+.resume_left {
+    width: 20%;
+
+}
+
+.resume_namerole {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    border-bottom: 5px solid;
+    height: 18vh;
+}
+
+.inner_resume_namerole_1 {
+    padding-top: 20px;
+    padding-right: 20px;
+    border-right: 5px solid;
+    width: 50%;
+}
+
+.inner_resume_namerole_2 {
+    padding: 20px;
+    width: 50%;
+}
+
+.namerole_description {
+    font-size: 18px;
+}
+
+.resume_wrapper .resume_item:last-child {
+    border-bottom: 0;
+}
+
+.name {
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.hl {
+    margin-top: 0px;
+    border: 2px solid #100a4a;
+}
+
+.resume_work {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    border-bottom: 5px solid;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume_skills_awards {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    border-bottom: 5px solid;
+    height: 18vh;
+}
+
+.inner_resume_skills_awards_1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    border-right: 5px solid;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    padding-right: 35px;
+    width: 100%;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.skills_names {
+    width: 50%;
+
+}
+
+.skills_rating {
+    width: 50%;
+}
+
+.level {
+    margin-right: 5px;
+}
+
+.inner_resume_skills_awards_2 {
+
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.resume_interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    border-bottom: 5px solid;
+    height: 18vh;
+}
+
+.interests_logo {
+    font-size: 90px;
+    width: 100%;
+    color: #100a4a;
+}
+
+.hobbies {
+    text-align: center;
+    padding-right: 50px;
+}
+
+.resume_education {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume_right {
+    width: 80%;
+    padding: 20px 40px;
+}
+
+.name {
+    color: #100a4a;
+    font-size: 32px;
+}
+
+.role {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+.resume_data {
+    display: flex;
+}
+
+.year {
+    padding-right: 35px;
+    width: 115px;
+    position: relative;
+}
+
+
+.resume_wrapper .resume_right .resume_data .content {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+
+
+
+
+.resume_wrapper .resume_right .resmue_interests .resume_info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.resume_wrapper .resume_right .resmue_interests .interests .int_icon {
+    font-size: 38px;
+    color: #0175b2;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    * {
+        font-size: 7px;
+    }
+
+    .logo {
+        font-size: 25px;
+        width: 90%;
+        color: #100a4a;
+    }
+
+    .icon-container {
+        padding: 0px;
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .profile_icon {
+        height: 18vh;
+    }
+
+    .row_name {
+        font-size: 5px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .resume_wrapper {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        height: 100vh;
+        margin: 10px auto;
+
+    }
+
+    .head {
+        margin: 0px;
+        padding: 0px;
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 6px;
+    }
+
+    .resume_left {
+        width: 20%;
+        margin: 0px;
+    }
+
+    .resume_namerole {
+        display: flex;
+        flex-direction: row;
+
+        padding-right: 0px;
+        border-bottom: 2px solid;
+        height: 18vh;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .inner_resume_namerole_1 {
+        margin: 0px;
+        margin-bottom: 0px;
+        border-right: 3px solid;
+        width: 50%;
+    }
+
+    .inner_resume_namerole_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .namerole_description {
+        font-size: 5px;
+        margin-left: 4px;
+        padding-bottom: 2px;
+        justify-content: center;
+    }
+
+    .resume_wrapper .resume_item:last-child {
+        border-bottom: 0;
+    }
+
+    .name {
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 5px;
+        letter-spacing: 4px;
+    }
+
+
+    .resume_work {
+        display: flex;
+        flex-direction: row;
+        padding-right: 0px;
+        border-bottom: 3px solid;
+        height: 18vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .resume_info {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .resume_data {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .resume_skills_awards {
+        display: flex;
+        flex-direction: row;
+        padding-right: 5px;
+        border-bottom: 3px solid;
+        height: 18vh;
+
+    }
+
+    .inner_resume_skills_awards_1 {
+        display: flex;
+        flex-direction: row;
+        padding-right: 5px;
+        border-right: 3px solid;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills {
+        font-size: 6px;
+        padding: 0;
+        margin-bottom: 2px;
+        width: 100%;
+        position: relative;
+    }
+
+    .skills_names {
+        width: 50%;
+
+    }
+
+
+    .skills_rating {
+        width: 50%;
+    }
+
+    .level {
+        padding: 0;
+        margin: 0;
+        margin-right: 2px;
+        font-size: 5px;
+    }
+
+    .inner_resume_skills_awards_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        padding-left: 5px;
+        width: 50%;
+    }
+
+    .resume_interests {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5px;
+        border-bottom: 3px solid;
+        height: 18vh;
+    }
+
+    .interests_logo {
+        font-size: 25px;
+        width: 100%;
+        color: #100a4a;
+        margin-right: 13px;
+    }
+
+    .hobbies {
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .resume_education {
+        display: flex;
+        flex-direction: row;
+        padding-right: 5px;
+        height: 18vh;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .resume_right {
+        width: 80%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .name {
+        color: #100a4a;
+        font-size: 12px;
+    }
+
+    .role {
+        font-size: 7px;
+        text-transform: uppercase;
+    }
+
+
+
+    .resume_data {
+        display: flex;
+    }
+
+    .year {
+        font-size: 5px;
+        margin-right: 0px;
+        width: 30%px;
+        position: relative;
+        margin: 0px;
+    }
+
+
+    .resume_wrapper .resume_right .resume_data .content {
+        padding-left: 5px;
+        margin-bottom: 5px;
+        width: 100%
+    }
+
+    .resume_data {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+    .resume_wrapper .resume_right .resmue_interests .resume_info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .resume_wrapper .resume_right .resmue_interests .interests .int_icon {
+        font-size: 8px;
+        color: #0175b2;
+        margin-bottom: 10px;
+    }
+}
